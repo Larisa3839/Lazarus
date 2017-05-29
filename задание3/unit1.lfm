@@ -1,0 +1,131 @@
+object Form1: TForm1
+  Left = 1286
+  Height = 381
+  Top = 251
+  Width = 494
+  Caption = 'Form1'
+  ClientHeight = 381
+  ClientWidth = 494
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 56
+    Width = 24
+    Caption = 'b  = '
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 17
+    Height = 15
+    Top = 91
+    Width = 23
+    Caption = 'c  = '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 17
+    Height = 15
+    Top = 125
+    Width = 21
+    Caption = 'd = '
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 39
+    Height = 23
+    Top = 48
+    Width = 80
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 39
+    Height = 23
+    Top = 83
+    Width = 80
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 39
+    Height = 23
+    Top = 117
+    Width = 80
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 184
+    Height = 15
+    Top = 56
+    Width = 20
+    Caption = 'k = '
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 184
+    Height = 15
+    Top = 91
+    Width = 25
+    Caption = 'm = '
+    ParentColor = False
+  end
+  object Edit4: TEdit
+    Left = 208
+    Height = 23
+    Top = 48
+    Width = 80
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 208
+    Height = 23
+    Top = 80
+    Width = 80
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 213
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Вычислить'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+  object Label6: TLabel
+    Left = 17
+    Height = 15
+    Top = 208
+    Width = 34
+    Caption = 'Label6'
+    ParentColor = False
+    Visible = False
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 15
+    Top = 238
+    Width = 34
+    Caption = 'Label7'
+    ParentColor = False
+    Visible = False
+  end
+  object Label8: TLabel
+    Left = 16
+    Height = 15
+    Top = 264
+    Width = 34
+    Caption = 'Label8'
+    ParentColor = False
+    Visible = False
+  end
+  object Label9: TLabel
+    Left = 16
+    Height = 15
+    Top = 288
+    Width = 34
+    Caption = 'Label9'
+    ParentColor = False
+    Visible = False
+  end
+end
